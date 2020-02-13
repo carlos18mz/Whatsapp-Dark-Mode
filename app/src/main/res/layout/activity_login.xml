@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0e1628">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Contraseña"
+        android:textColor="#569cd6"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idCorreoLogin" />
+
+    <EditText
+        android:id="@+id/idCorreoLogin"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:textColor="#e8e8ac"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correoLogin" />
+
+    <TextView
+        android:id="@+id/correoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Correo"
+        android:textColor="#569cd6"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/idContraseñaLogin"
+        android:layout_width="220sp"
+        android:layout_height="40sp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:textColor="#e8e8ac"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/idRegistroLogin"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:background="#212e44"
+        android:text="Registrar"
+        android:textColor="#59b47b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idLoginlogin"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Button
+        android:id="@+id/idLoginlogin"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="352dp"
+        android:background="#212e44"
+        android:text="Entrar"
+        android:textColor="#e8e8ac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

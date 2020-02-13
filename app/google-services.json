@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "367018542874",
+    "firebase_url": "https://fir-chat-8a739.firebaseio.com",
+    "project_id": "fir-chat-8a739",
+    "storage_bucket": "fir-chat-8a739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367018542874:android:22d7bb80949b9a27618ea3",
+        "android_client_info": {
+          "package_name": "com.example.discordfixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB37r61yrNcjP0xSCbrv-A1LXce15c6qn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367018542874:android:9036706451dca69e618ea3",
+        "android_client_info": {
+          "package_name": "com.example.discordlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB37r61yrNcjP0xSCbrv-A1LXce15c6qn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367018542874:android:8f00fe1c8349de30618ea3",
+        "android_client_info": {
+          "package_name": "com.example.movilchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB37r61yrNcjP0xSCbrv-A1LXce15c6qn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367018542874-vsdtdgj8slc626dtc6du86lh1beb6me1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DiscordFixed</string>
+    <string name="prompt">≡</string>
+    <string name="cambiarFoto">Cambiar foto</string>
+    <string name="banear">Banearlos a todos</string>
+    <string name="cerrarSesion">Cerrar sesión</string>
+    <string name="zero"></string>
+</resources>

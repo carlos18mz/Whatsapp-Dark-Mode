@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5sp"
+    android:background="#0e1628"
+    tools:context=".Activity.MensajeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fotoPerfil"
+            android:layout_width="48sp"
+            android:layout_height="48sp"
+            android:src="@mipmap/ic_launcher" />
+        <TextView
+            android:id="@+id/nombre"
+            android:textColor="#569cd6"
+            android:paddingLeft="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end">
+
+            <ImageButton
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:id="@+id/cerrarSesion"
+                app:srcCompat="@drawable/locodalepafuera"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:background="#0e1628"
+                ></ImageButton>
+            <Spinner
+                android:id="@+id/spmenuOpciones"
+                android:layout_width="50sp"
+                android:layout_height="50sp"
+                android:adjustViewBounds="true"
+                android:padding="10sp"
+                android:prompt="@string/prompt"
+                android:popupBackground="#212e44"
+                android:textColor="#e8e8ac"
+                android:scaleType="centerInside"
+                android:background="@drawable/ic_menu_black_24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btnEnviarFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_gallery"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/txtMensaje"
+            android:textColor="#e8e8ac"
+            android:textColorHint="#e8e8ac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribe un mensaje"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:background="#212e44"
+            android:textColor="#59b47b"
+            android:textColorHint="#59b47b"
+            android:shadowColor="#59b47b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enviar ▶"/>
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
